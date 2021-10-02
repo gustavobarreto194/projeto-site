@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    font-family: arial,verdana,helvetica,sans-serif;
+    background-color: var(--var0--);
+}
+
+:root {
+    --var0--: #74c69d;
+    --var1--: #52b788;
+    --var2--: #2d6a4f;
+    --var3--: #1b4332;
+    --var4--: #081c15;
+}
+
+header {
+    background-image:linear-gradient(to bottom,var(--var0--), var(--var2--));
+    color: white;
+    text-align: center;
+    padding-bottom: 4px;
+    
+}
+
+header > h1 {
+    font-size: 3em;
+    margin: 0px;
+    text-shadow: 2px 2px 5px black;
+    padding-top: 5px;
+    
+}
+
+header > p {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+    padding: 5px;
+}
+
+.link > a {
+    color: #00ff80;
+}
+
+nav {
+    background-color: var(--var2--);
+    padding: 5px;
+}
+
+nav > a {
+    font-size: 17px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+
+}
+
+nav>a:hover {
+    color: rgb(0, 255, 0);
+}
+
+main {
+    margin: auto;
+    display: block;
+    padding: 2px 10px 5px 10px;
+    margin-top: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+main > p {
+    line-height: 2em;
+}
+
+main > h2 {
+    color: var(--var3--);
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #31f700;
+    
+}
+
+main  strong {
+    color: var(--var2--);
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 100%;
+
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.video{
+    background-color: var(--var3--);
+    margin: 0px -10px 30px -10px;
+    padding: 20px;
+    padding-bottom: 55.5%;
+    position: relative;
+
+}
+
+.titulo{
+    color: white;
+    background-color: var(--var3--);
+    margin: 0px;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.extra {
+    background-color: var(--var2--);
+    color: white;
+    padding: 5px;
+}
+
+aside {
+    margin: 20px 0px 20px 0px;
+}
+
+main > aside > div > p {
+    margin-top: 0px;
+}
+
+main > aside > div > ul {
+    columns: 2;
+}
+
+footer {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    padding: 5px;
+    background-color: var(--var3--);
+    color: white;
+}
